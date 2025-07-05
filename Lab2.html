@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping List</title>
     <link rel="stylesheet" href="Lab2.css">
 </head>
-<h1>Shopping List</h1>
-<div class="input-container">
-    <input type="text" id="itemList" placeholder="Add Item Here..">
-</input>
-<button id="addBtn">Add Item</button>
-</div>
+
 <body>
+    <h1>Shopping List</h1>
+    <div class="input-container">
+        <input type="text" id="itemList" placeholder="Add Item Here..">
+        <button id="addBtn">Add Item</button>
+        <button id="removeBtn">Remove Last Item</button>
+    </div>
+    <div class="unordered-list">
+        <ul id="shoppingItems">
+
+        </ul>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
